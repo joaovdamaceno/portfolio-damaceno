@@ -7,7 +7,8 @@
     "build": "npm run compress && next build",
     "compress": "node compress-media.js",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postinstall": "npm rebuild sharp"
   },
   "dependencies": {
     "aos": "^2.3.4",
