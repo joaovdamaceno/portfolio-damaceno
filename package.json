@@ -4,8 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run compress && next build",
-    "compress": "node compress-media.js",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,8 +13,7 @@
     "fluent-ffmpeg": "^2.1.3",
     "next": "14.2.5",
     "react": "^18",
-    "react-dom": "^18",
-    "sharp": "^0.32.6"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/aos": "^3.0.7",
